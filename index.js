@@ -28,4 +28,5 @@ const getColorScheme = async () => {
   colorContainer.innerHTML = colorDisplay;
 };
 
+getColorScheme();
 getColorSchemeBtn.addEventListener('click', getColorScheme);

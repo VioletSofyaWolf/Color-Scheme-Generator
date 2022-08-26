@@ -50,8 +50,9 @@ p {
 }
 
 .color-picker {
-  height: 34px;
-  width: 51px;
+  height: 42px;
+  width: 65px;
+  border: none;
 }
 
 select {
@@ -65,11 +66,16 @@ select {
 }
 
 button {
-  width: 123px;
+  width: 125px;
   height: 42px;
   background: #3d4b60;
   border: none;
   border-radius: 4px;
   color: #fff;
   cursor: pointer;
+}
+
+.color-picker::-webkit-color-swatch,
+.color-picker::-moz-color-swatch {
+  border-color: transparent;
 }
